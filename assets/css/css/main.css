@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header .container .row .col-8 .text nav ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+header .container .row .col-8 .text nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+header .container .row .col-8 .text nav ul li a i {
+  color: orangered;
+  margin-right: 5px;
+}
+header .bottom {
+  background-color: rgb(197, 197, 197);
+  height: 60px;
+}
+header .bottom .container {
+  padding: 0;
+}
+header .bottom .container .row {
+  padding-left: 10px;
+}
+header .bottom .container .row .col-10 nav ul {
+  padding: 0;
+  margin-bottom: 0;
+}
+header .bottom .container .row .col-10 nav ul li {
+  font-size: 12px;
+  list-style: none;
+  margin-right: 20px;
+}
+header .bottom .container .row .col-10 nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+header .bottom .container .row .col-2 .button button {
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: red;
+  border: none;
+  color: white;
+}
+
+main section {
+  padding: 20px;
+}
+main section .container .row .col-6 ul {
+  padding: 0;
+}
+main section .container .row .col-6 ul li {
+  padding: 2px 5px;
+  list-style: none;
+  background-color: rgb(228, 228, 228);
+  color: black;
+  width: 60px;
+  margin-right: 25px;
+  text-align: center;
+  border-radius: 10px;
+}
+main section .container .row .col-6 ul li a {
+  text-decoration: none;
+  color: black;
+}
+main section .container .row .col-6 ul .yetim {
+  width: 90px;
+}
+main section .container .row .col-6 ul .yetka {
+  background-color: red;
+  color: white;
+}
+main section .container .row .box .container {
+  background-color: rgb(228, 228, 228);
+  border: 1px solid rgb(170, 170, 170);
+  border-radius: 10px;
+  padding: 30px 60px;
+}
+main section .container .row .box .container .row .col-lg-4 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+main section .container .row .box .container .row .col-lg-4 .logo img {
+  width: 277px;
+}
+main section .container .row .box .container .row .col-lg-7 .title-text span {
+  color: red;
+  font-weight: 600;
+}
+main section .container .row .box .container .row .col-lg-7 .title-text span i {
+  margin-right: 10px;
+  color: red;
+}
+main section .container .row .box .container .row .col-lg-7 .title-text p {
+  padding: 15px 0;
+  font-size: 30px;
+  font-weight: 600;
+}
+main section .container .row .box .container .row .col-lg-7 .title-text ul {
+  padding: 0;
+  padding-bottom: 10px;
+}
+main section .container .row .box .container .row .col-lg-7 .title-text ul li {
+  list-style: none;
+  margin-right: 80px;
+}
+main section .container .row .box .container .row .col-lg-7 .title-text button {
+  width: 250px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+main section .container .row .box .container .row .col-lg-7 .title-text a {
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+}
+
+.pay-cards .container .row .col-lg-4 {
+  padding: 60px 0;
+}
+.pay-cards .container .row .col-lg-4 .cards-first, .pay-cards .container .row .col-lg-4 .cards-second, .pay-cards .container .row .col-lg-4 .cards-third, .pay-cards .container .row .col-lg-4 .cards-for {
+  position: relative;
+  top: 30px;
+  box-sizing: border-box;
+  width: 90%;
+  height: 100%;
+  padding: 50px 20px 0;
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: rgb(228, 228, 228);
+}
+.pay-cards .container .row .col-lg-4 .cards-first .logo, .pay-cards .container .row .col-lg-4 .cards-second .logo, .pay-cards .container .row .col-lg-4 .cards-third .logo, .pay-cards .container .row .col-lg-4 .cards-for .logo {
+  width: 225px;
+  position: absolute;
+  top: -80px;
+}
+.pay-cards .container .row .col-lg-4 .cards-first .logo img, .pay-cards .container .row .col-lg-4 .cards-second .logo img, .pay-cards .container .row .col-lg-4 .cards-third .logo img, .pay-cards .container .row .col-lg-4 .cards-for .logo img {
+  width: 100%;
+}
+.pay-cards .container .row .col-lg-4 .cards-first ul, .pay-cards .container .row .col-lg-4 .cards-second ul, .pay-cards .container .row .col-lg-4 .cards-third ul, .pay-cards .container .row .col-lg-4 .cards-for ul {
+  padding-left: 19px;
+  margin: 0;
+}
+.pay-cards .container .row .col-lg-4 .cards-first ul li, .pay-cards .container .row .col-lg-4 .cards-second ul li, .pay-cards .container .row .col-lg-4 .cards-third ul li, .pay-cards .container .row .col-lg-4 .cards-for ul li {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.pay-cards .container .row .col-lg-4 .cards-first .title strong, .pay-cards .container .row .col-lg-4 .cards-second .title strong, .pay-cards .container .row .col-lg-4 .cards-third .title strong, .pay-cards .container .row .col-lg-4 .cards-for .title strong {
+  width: 302px;
+  display: block;
+  padding: 21px 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+.pay-cards .container .row .col-lg-4 .cards-first .change .details, .pay-cards .container .row .col-lg-4 .cards-second .change .details, .pay-cards .container .row .col-lg-4 .cards-third .change .details, .pay-cards .container .row .col-lg-4 .cards-for .change .details {
+  padding: 5px;
+  margin-left: 40px;
+}
+.pay-cards .container .row .col-lg-4 .cards-first .change .details a, .pay-cards .container .row .col-lg-4 .cards-second .change .details a, .pay-cards .container .row .col-lg-4 .cards-third .change .details a, .pay-cards .container .row .col-lg-4 .cards-for .change .details a {
+  color: gray;
+  cursor: pointer;
+}
+.pay-cards .container .row .col-lg-4 .cards-first .change .red, .pay-cards .container .row .col-lg-4 .cards-second .change .red, .pay-cards .container .row .col-lg-4 .cards-third .change .red, .pay-cards .container .row .col-lg-4 .cards-for .change .red {
+  margin-left: 5px;
+}
+.pay-cards .container .row .col-lg-4 .cards-first .change .red a:hover, .pay-cards .container .row .col-lg-4 .cards-second .change .red a:hover, .pay-cards .container .row .col-lg-4 .cards-third .change .red a:hover, .pay-cards .container .row .col-lg-4 .cards-for .change .red a:hover {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  padding: 2px;
+}
+.pay-cards .container .row .col-lg-4 .cards-first .change .red a, .pay-cards .container .row .col-lg-4 .cards-second .change .red a, .pay-cards .container .row .col-lg-4 .cards-third .change .red a, .pay-cards .container .row .col-lg-4 .cards-for .change .red a {
+  color: red;
+}
+.pay-cards .container .row .col-lg-4 .cards-first .change div a, .pay-cards .container .row .col-lg-4 .cards-second .change div a, .pay-cards .container .row .col-lg-4 .cards-third .change div a, .pay-cards .container .row .col-lg-4 .cards-for .change div a {
+  text-decoration: none;
+}
+
+.text .container .row .col-12 .text {
+  font-size: 12px;
+  text-align: center;
+}
+.text .container .row .col-lg-3 {
+  padding: 30px 0;
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  justify-content: center;
+}
+.text .container .row .col-lg-3 div a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #212529;
+}
+footer .container .row {
+  padding: 30px 0;
+}
+footer .container .row .col-lg-2 ul .caps {
+  font-weight: 600;
+}
+footer .container .row .col-lg-2 ul li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 25px;
+}
+footer .container .row .col-lg-2 ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer .container .row .col-lg-2 div img {
+  margin-top: 10px;
+  border-radius: 15px;
+}
+footer .container .row .col-lg-2 .logo {
+  text-align: center;
+}
+footer .container .row .col-lg-2 .logo h3 {
+  color: white;
+  font-size: 13px;
+}
+footer .container .row .icon {
+  justify-content: start;
+  display: flex;
+  padding-left: 40px;
+}
+footer .container .row .icon .icons {
+  padding: 100px 0 0;
+}
+footer .container .row .icon .icons .red {
+  border: 1px solid red;
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 3px 4px;
+}
+footer .container .row .icon .icons .select .left {
+  color: white;
+  margin-left: 30px;
+  font-size: 18px;
+}
+footer .container .row .bottom .text {
+  color: white;
+}
+
+.sticky {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: white;
+  box-shadow: 0px 0px 2px 2px rgb(216, 216, 216);
+}
+.sticky img {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}/*# sourceMappingURL=main.css.map */
